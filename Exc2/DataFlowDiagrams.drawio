@@ -1,0 +1,109 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.7 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
+    <mxGraphModel dx="1169" dy="2468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-1" value="&lt;div style=&quot;background-color: rgb(242, 243, 249);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono Light&#39;,monospace;font-size:11.3pt;&quot;&gt;Integration Domain&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&amp;nbsp;Event Driven (Kafka)&lt;br&gt;&amp;nbsp;Интеграционные сервисы&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#FCFEFF;" vertex="1" parent="1">
+          <mxGeometry x="1569.9999999999998" y="-665" width="201.14" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;startArrow=classic;startFill=1;" edge="1" parent="1" source="VWzC3y_SFmNBM3vrn5EW-2" target="VWzC3y_SFmNBM3vrn5EW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-24" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Обработка&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="VWzC3y_SFmNBM3vrn5EW-9">
+          <mxGeometry x="-0.0341" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-2" value="&lt;div style=&quot;background-color: rgb(242, 243, 249);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono Light&#39;,monospace;font-size:11.3pt;&quot;&gt;Data Lakehouse Domain&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Airflow&lt;br&gt;Clickhouse&lt;br&gt;&amp;nbsp;Dremio&lt;br&gt;Nessei&lt;br&gt;DataHub&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#FCFEFF;" vertex="1" parent="1">
+          <mxGeometry x="1565.57" y="-1010" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;startArrow=classic;startFill=1;" edge="1" parent="1" source="VWzC3y_SFmNBM3vrn5EW-3" target="VWzC3y_SFmNBM3vrn5EW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-18" value="Аналитические&amp;nbsp;&lt;br&gt;данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="VWzC3y_SFmNBM3vrn5EW-11">
+          <mxGeometry x="0.0664" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-3" value="&lt;div style=&quot;background-color: rgb(242, 243, 249);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono Light&#39;,monospace;font-size:11.3pt;&quot;&gt;BI &amp;amp; Analytics Domain&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&amp;nbsp;BI-сервисы&lt;br&gt;ML-сервисы&amp;nbsp;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#FCFEFF;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="-1002.5" width="201.14" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="VWzC3y_SFmNBM3vrn5EW-4" target="VWzC3y_SFmNBM3vrn5EW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Данные ТМЦ&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="VWzC3y_SFmNBM3vrn5EW-10">
+          <mxGeometry x="0.0971" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-4" value="&lt;div style=&quot;background-color: rgb(242, 243, 249);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono Light&#39;,monospace;font-size:11.3pt;&quot;&gt;Inventory Domain&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;Внутренние сервисы&lt;br&gt;ТМЦ&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#FCFEFF;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="-665" width="201.14" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;startArrow=classic;startFill=1;" edge="1" parent="1" source="VWzC3y_SFmNBM3vrn5EW-5" target="VWzC3y_SFmNBM3vrn5EW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-26" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Финансовые данные&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="VWzC3y_SFmNBM3vrn5EW-8">
+          <mxGeometry x="-0.1217" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;startArrow=classic;startFill=1;" edge="1" parent="1" source="VWzC3y_SFmNBM3vrn5EW-5" target="VWzC3y_SFmNBM3vrn5EW-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="-252" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-22" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Обмен фин данными&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="VWzC3y_SFmNBM3vrn5EW-13">
+          <mxGeometry x="0.161" y="2" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-5" value="&lt;div style=&quot;background-color: rgb(242, 243, 249);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono Light&#39;,monospace;font-size:11.3pt;&quot;&gt;Finance Domain&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&amp;nbsp; ФинТех&amp;nbsp;&lt;br&gt;сервисы&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#FCFEFF;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-665" width="201.14" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="VWzC3y_SFmNBM3vrn5EW-6" target="VWzC3y_SFmNBM3vrn5EW-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1181" y="-785" />
+              <mxPoint x="1620" y="-785" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-23" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="VWzC3y_SFmNBM3vrn5EW-14">
+          <mxGeometry x="-0.0558" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-25" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Медицинские данные&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="VWzC3y_SFmNBM3vrn5EW-14">
+          <mxGeometry x="-0.0435" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="VWzC3y_SFmNBM3vrn5EW-6" target="VWzC3y_SFmNBM3vrn5EW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-17" value="Результаты экспериментов&lt;br&gt;Мед карты" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="VWzC3y_SFmNBM3vrn5EW-15">
+          <mxGeometry x="0.1452" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-6" value="&lt;div style=&quot;background-color: rgb(242, 243, 249);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono Light&#39;,monospace;font-size:11.3pt;&quot;&gt;Medical Domain&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;Инструменты для опытов&lt;br&gt;Лабораторное оборудование&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#FCFEFF;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-1002.5" width="201.14" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="VWzC3y_SFmNBM3vrn5EW-7" target="VWzC3y_SFmNBM3vrn5EW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-21" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Клиентские данные&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="VWzC3y_SFmNBM3vrn5EW-12">
+          <mxGeometry x="-0.1289" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWzC3y_SFmNBM3vrn5EW-7" value="&lt;div style=&quot;background-color: rgb(242, 243, 249);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono Light&#39;,monospace;font-size:11.3pt;&quot;&gt;Customer Domain&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&amp;nbsp;Клиентские сервисы&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#FCFEFF;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="-315" width="201.14" height="125" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
